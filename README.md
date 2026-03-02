@@ -1,6 +1,6 @@
 # Multi-Outlet-Revenue-Profitability-Analytics-Dashboard
-☕ Multi-Outlet Revenue & Profitability Analytics Dashboard
-Overview
+  Multi-Outlet Revenue & Profitability Analytics Dashboard
+ Overview
 
 This project analyzes 50,000+ transaction-level sales records from multiple cafe outlets to understand revenue performance, profitability trends, and product contribution.
 
@@ -8,7 +8,7 @@ The objective was to simulate how a multi-location retail business (such as a ca
 
 The final output is an interactive Excel dashboard designed to track key business metrics dynamically.
 
-Business Context
+ Business Context
 
 Retail businesses operating across multiple outlets need visibility into:
 
