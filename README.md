@@ -1,164 +1,112 @@
 # Multi-Outlet-Revenue-Profitability-Analytics-Dashboard
-Overview
+Project Overview
 
-This project analyzes 50,000+ transaction-level sales records from multiple cafe outlets to understand revenue patterns, profitability trends, and product performance.
+This project focuses on analyzing transaction-level sales data from multiple cafe outlets. The goal was to understand revenue patterns, profitability, and product performance using Excel.
 
-The objective was not just to visualize data, but to simulate how a retail business might use transaction data to monitor outlet performance, optimize margins, and identify operational improvement areas.
+The dataset contains 50,000+ records including sales amount, product pricing, cost, and date of transaction. Based on this data, I built an interactive dashboard to simulate how a retail brand might track business performance.
 
-The final output is an interactive Excel dashboard designed for performance tracking and decision support.
+Problem Statement
 
-Business Scenario
+Retail businesses with multiple outlets need regular monitoring of:
 
-In a multi-outlet retail model (such as cafes or QSR chains), management needs visibility into:
+Revenue across locations
 
-Which outlets generate the highest revenue
+Profit margins
 
-Which products contribute the most profit
+Product category contribution
 
-Whether margins are healthy across categories
+Monthly sales trends
 
-How sales vary month-to-month
+Underperforming outlets or products
 
-Where performance gaps exist
+This project was built to replicate that scenario and extract meaningful insights from raw transaction data.
 
-This project replicates that environment using structured analysis techniques in Excel.
+Data Preparation
 
-Dataset Details
+Before building the dashboard, I performed:
 
-50,000+ transaction records
+Data cleaning and formatting
 
-Multiple cafe outlets
+Conversion of raw data into structured table format
 
-Product-level granularity
+Creation of calculated fields:
 
-Revenue, price, and cost data
+Quantity Sold
 
-Time-based sales tracking
-
-Each row represents an individual transaction entry, enabling detailed aggregation and analysis.
-
-Data Preparation & Engineering
-
-Before building the dashboard, I focused on structuring the dataset properly:
-
-Converted raw data into an Excel Table for scalability
-
-Standardized date formats for time-series analysis
-
-Created derived metrics:
-
-Quantity Sold (Revenue ÷ Price)
-
-Gross Profit (Revenue − Cost × Quantity)
+Gross Profit
 
 Profit Margin %
 
-Month-Year grouping for trend analysis
+Month-Year grouping
 
-These engineered metrics formed the foundation for meaningful business insights.
-
-Analytical Approach
-
-The analysis was structured around four key dimensions:
-
-1. Revenue Performance
-
-Outlet-wise revenue comparison
-
-Monthly revenue trends
-
-Category contribution to total revenue
-
-2. Profitability Analysis
-
-Margin comparison across product types
-
-Identification of high-margin vs low-margin segments
-
-Outlet-level profit contribution
-
-3. Performance Ranking
-
-Top-performing outlets
-
-Top 5 most profitable products
-
-Underperforming segments
-
-4. Seasonal & Trend Insights
-
-Identification of peak revenue months
-
-Month-over-month variation patterns
+This helped in making the analysis dynamic and scalable.
 
 Dashboard Features
 
-The final dashboard includes:
+The Excel dashboard includes:
 
-KPI cards (Total Revenue, Total Profit, Margin %, Transactions)
+KPI cards (Total Revenue, Profit, Margin %, Transactions)
 
-Monthly revenue trend line
+Monthly revenue trend line chart
 
-Outlet-wise performance comparison
+Outlet-wise revenue comparison
 
-Product category contribution chart
+Product category contribution analysis
+
+Top-performing products
 
 Profitability heatmap
 
-Top-performing products section
+Interactive slicers for outlet, category, and month filtering
 
-Interactive slicers for:
+All visuals update dynamically based on selected filters.
 
-Outlet
+Key Insights
 
-Product category
+From the analysis:
 
-Month
+Certain outlets contribute significantly higher revenue compared to others.
 
-The dashboard updates dynamically based on filter selection, allowing focused analysis at different levels.
+Some product categories generate better margins despite lower sales volume.
 
-Key Observations
+Monthly sales show clear peak periods, indicating possible seasonal demand.
 
-Revenue distribution is uneven across outlets, indicating varying operational performance.
+A few products consistently underperform in terms of profitability.
 
-Some products generate strong revenue but comparatively lower margins.
+Business Takeaways
 
-Certain product categories show consistent profitability across outlets.
+High-margin products should be prioritized in promotions.
 
-Monthly sales exhibit identifiable peaks, suggesting possible seasonal demand.
+Underperforming outlets require operational review.
 
-Business Implications
+Seasonal peaks can be leveraged through inventory and marketing planning.
 
-From an operational perspective:
+Margin-focused strategies can improve overall profitability.
 
-High-margin products can be prioritized in promotional campaigns.
+Tools Used
 
-Low-performing outlets may require pricing, cost, or demand evaluation.
+Microsoft Excel
 
-Seasonal peaks can inform inventory planning.
+Pivot Tables
 
-Margin-focused decision-making can improve overall profitability.
+Advanced formulas (SUMIFS, INDEX-MATCH, etc.)
 
-Tools & Skills Demonstrated
+Slicers
 
-Advanced Excel (Pivot Tables, SUMIFS, INDEX-MATCH, Slicers)
+Conditional Formatting
 
-Data cleaning and transformation
+Interactive dashboard design
 
-Metric engineering
+What This Project Demonstrates
 
-Business KPI interpretation
+Ability to work with large structured datasets
 
-Structured analytical thinking
+Understanding of retail performance metrics
 
-What This Project Reflects
+Strong Excel-based analytics skills
 
-This project demonstrates the ability to:
+Translating raw data into business insights
 
-Work with large structured datasets
+This version:
 
-Think beyond raw numbers and interpret business meaning
-
-Design dashboards that support decision-making
-
-Translate transaction-level data into actionable insights
+✔ Sounds natural
